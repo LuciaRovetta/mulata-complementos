@@ -6,7 +6,7 @@
 
 body {
   font-family: "Montserrat", sans-serif;
-  background-image: url(../Imagen/gra.jpg);
+  background-image: url(../imagen/gra.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -124,10 +124,11 @@ svg {
 
 .text2 {
   text-align: center;
-  width: 200px;
+  width: 450px;
   border-color: white;
   border-style: double ;
-  color: rgb(194, 114, 40)
+  color: rgb(194, 114, 40);
+  font-weight: bold;
 }
 
 .footer {
