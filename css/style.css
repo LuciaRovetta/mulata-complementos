@@ -248,3 +248,8 @@ padding: 10px;
 .col {
 position: absolute; 
 }
+
+.dire {
+  color: rgb(194, 114, 40);
+  font-size: 15px;
+}
