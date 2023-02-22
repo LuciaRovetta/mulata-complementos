@@ -166,7 +166,6 @@ padding: 10px;
 
 .edicion{
   width: 100%;
-  height: 100vh;
   display: grid;
   grid-template-columns: 2fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
@@ -177,27 +176,22 @@ padding: 10px;
 
 .el{
   grid-area: el;
-  background-image: url(../imagen/el.jpg);
 }
 
 .corazon{
   grid-area: corazon;
-  background-image: url(../imagen/corazon.jpg);
 }
 
 .cadena{
   grid-area: cadena;
-  background-image: url(../imagen/cadena.jpg);
 }
 
 .cadena2{
   grid-area: cadena2;
-  background-image: url(../imagen/cadena2.jpg);
 }
 
 .corazon2{
   grid-area: corazon2;
-  background-image: url(../imagen/corazon2.jpg);
 }
 
 .edicion > div{
@@ -208,7 +202,6 @@ padding: 10px;
 
 .edicion2{
   width: 100%;
-  height: 100vh;
   display: grid;
   grid-template-columns: 2fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
@@ -219,22 +212,18 @@ padding: 10px;
 
 .p1{
   grid-area: p1;
-  background-image: url(../imagen/p1.jpg);
 }
 
 .p2{
   grid-area: p2;
-  background-image: url(../imagen/p2.jpg);
 }
 
 .p3{
   grid-area: p3;
-  background-image: url(../imagen/p3.jpg);
 }
 
 .p4{
   grid-area: p4;
-  background-image: url(../imagen/p4.jpg);
 }
 
 .edicion2 > div{
@@ -253,4 +242,8 @@ padding: 10px;
 
 .nav-item a {
     color: rgb(194, 114, 40);
+}
+
+.col {
+position: absolute; 
 }
