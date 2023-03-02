@@ -1,0 +1,67 @@
+.texta {
+  text-align: center;
+  padding: 30px;
+  color: rgb(194, 114, 40);
+  font-size: 15px;
+}
+
+.sets {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  font-size: 10px;
+  color: rgb(194, 114, 40);
+  padding: 30px;
+}
+
+.pulseras{
+  text-align: center;
+  padding: 30px;
+  color: rgb(194, 114, 40);
+  font-size: 15px;
+}
+
+.edicion2{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: 
+  "el p1 p2"
+  "el p3 p4";
+}
+
+.p1{
+  grid-area: p1;
+}
+
+.p2{
+  grid-area: p2;
+}
+
+.p3{
+  grid-area: p3;
+}
+
+.p4{
+  grid-area: p4;
+}
+
+.edicion2 > div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(194, 114, 40);
+}
+
+.col {
+position: absolute; 
+}
+
+.container1 {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1400px;
+}

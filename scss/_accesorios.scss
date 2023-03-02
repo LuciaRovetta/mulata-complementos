@@ -1,0 +1,35 @@
+._accesorios {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin: 0;
+  border-color: beige;
+  border-style: double;
+  padding: 10px;
+  text-align: center;
+  color:rgb(194, 114, 40);
+}
+.text {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.text2 {
+  text-align: center;
+  width: 450px;
+  border-color: white;
+  border-style: double ;
+  color: rgb(194, 114, 40);
+  font-weight: bold;
+}
+
+.container1 {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1400px;
+}
