@@ -1,5 +1,8 @@
 .formulario {
-  background-color: rgb(197, 148, 103);
+  background-image: url(../imagen/formu.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: min(600px, 100%);
   margin: 0 auto;
   padding-top: 20px;
