@@ -201,14 +201,15 @@ h2 {
 .edicion2 .p4 {
   grid-area: p4;
 }
-.edicion2 .edicion2 > div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: rgb(194, 114, 40);
-}
 .edicion2 .col {
   position: absolute;
+}
+
+.edicion2 > div {
+  display: flex;
+  justify-content: center;
+  color: rgb(194, 114, 40);
+  align-items: center;
 }
 
 .container1 {

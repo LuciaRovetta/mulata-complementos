@@ -34,7 +34,7 @@
 
   .el{
       grid-area: el;
-    }
+  }
 
   .p1{
     grid-area: p1;
@@ -52,18 +52,18 @@
     grid-area: p4;
   }
 
-  .edicion2 > div{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: rgb(194, 114, 40);
-  }
-
   .col {
   position: absolute; 
   }
+}  
 
+.edicion2 > div{
+  display: flex;
+  justify-content: center;
+  color: rgb(194, 114, 40);
+  align-items: center;
 }
+
 .container1 {
   width: 80%;
   margin: 0 auto;
