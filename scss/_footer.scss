@@ -1,17 +1,16 @@
-.container1 {
-  width: 80%;
-  margin: 0 auto;
-  max-width: 1400px;
-}
-
 .footer {
   background-color: rgb(214, 163, 114);
   text-align: center;
   color: white;
   font-size: 15px;
   padding: 30px;
+
+  .container1 {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1400px;
+  }
+
 }
 
-svg {
-  vertical-align: middle;
-}
+

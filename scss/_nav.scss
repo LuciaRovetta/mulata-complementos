@@ -2,16 +2,10 @@
   width: 80%;
   margin: 0 auto;
   max-width: 1400px;
+
+    .nav-item a {
+        color: rgb(146, 73, 5);
 }
 
-.nav-item a {
-    color: rgb(194, 114, 40);
 }
 
-#nosotros {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 1rem;
-  flex-wrap: wrap;
-}

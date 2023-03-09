@@ -1,10 +1,4 @@
 @charset "UTF-8";
-.container1 {
-  width: 80%;
-  margin: 0 auto;
-  max-width: 1400px;
-}
-
 .footer {
   background-color: rgb(214, 163, 114);
   text-align: center;
@@ -12,9 +6,10 @@
   font-size: 15px;
   padding: 30px;
 }
-
-svg {
-  vertical-align: middle;
+.footer .container1 {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1400px;
 }
 
 .container1 {
@@ -22,17 +17,8 @@ svg {
   margin: 0 auto;
   max-width: 1400px;
 }
-
-.nav-item a {
-  color: rgb(194, 114, 40);
-}
-
-#nosotros {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 1rem;
-  flex-wrap: wrap;
+.container1 .nav-item a {
+  color: rgb(146, 73, 5);
 }
 
 * {
@@ -51,6 +37,11 @@ body {
 
 #sección-principal {
   text-align: center;
+}
+#sección-principal .container1 {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1400px;
 }
 
 img {
@@ -92,8 +83,7 @@ h2 {
   padding-top: 10px;
   padding-bottom: 10px;
 }
-
-.text2 {
+.text .text2 {
   text-align: center;
   width: 450px;
   border-color: white;
@@ -133,35 +123,29 @@ h2 {
   grid-template-rows: 1fr 1fr;
   grid-template-areas: "el corazon cadena" "el cadena2 corazon2";
 }
-
-.el {
+.edicion .el {
   grid-area: el;
 }
-
-.corazon {
+.edicion .corazon {
   grid-area: corazon;
 }
-
-.cadena {
+.edicion .cadena {
   grid-area: cadena;
 }
-
-.cadena2 {
+.edicion .cadena2 {
   grid-area: cadena2;
 }
-
-.corazon2 {
+.edicion .corazon2 {
   grid-area: corazon2;
+}
+.edicion .col {
+  position: absolute;
 }
 
 .edicion > div {
   display: flex;
   justify-content: center;
   color: rgb(194, 114, 40);
-}
-
-.col {
-  position: absolute;
 }
 
 .container1 {
@@ -202,31 +186,28 @@ h2 {
   grid-template-rows: 1fr 1fr;
   grid-template-areas: "el p1 p2" "el p3 p4";
 }
-
-.p1 {
+.edicion2 .el {
+  grid-area: el;
+}
+.edicion2 .p1 {
   grid-area: p1;
 }
-
-.p2 {
+.edicion2 .p2 {
   grid-area: p2;
 }
-
-.p3 {
+.edicion2 .p3 {
   grid-area: p3;
 }
-
-.p4 {
+.edicion2 .p4 {
   grid-area: p4;
 }
-
-.edicion2 > div {
+.edicion2 .edicion2 > div {
   display: flex;
   justify-content: center;
   align-items: center;
   color: rgb(194, 114, 40);
 }
-
-.col {
+.edicion2 .col {
   position: absolute;
 }
 
@@ -247,8 +228,7 @@ h2 {
   align-items: center;
   padding: 10px;
 }
-
-.dire {
+.mapa1 .dire {
   color: rgb(194, 114, 40);
   font-size: 15px;
   border-color: white;
@@ -264,7 +244,11 @@ h2 {
   max-width: 1400px;
 }
 
-.formulario {
+.la {
+  flex-direction: row;
+  padding: 10px;
+}
+.la .formulario {
   background-image: url(../imagen/formu.jpg);
   display: flex;
   justify-content: center;
@@ -277,13 +261,7 @@ h2 {
   padding-right: 20px;
   color: white;
 }
-
-.la {
-  flex-direction: row;
-  padding: 10px;
-}
-
-fieldset {
+.la fieldset {
   border: none;
 }
 

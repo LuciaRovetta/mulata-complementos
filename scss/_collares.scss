@@ -23,37 +23,40 @@
   grid-template-areas: 
   "el corazon cadena"
   "el cadena2 corazon2";
-}
 
-.el{
-  grid-area: el;
-}
 
-.corazon{
-  grid-area: corazon;
-}
+  .el{
+    grid-area: el;
+  }
 
-.cadena{
-  grid-area: cadena;
-}
+  .corazon{
+    grid-area: corazon;
+  }
 
-.cadena2{
-  grid-area: cadena2;
-}
+  .cadena{
+    grid-area: cadena;
+  }
 
-.corazon2{
-  grid-area: corazon2;
+  .cadena2{
+    grid-area: cadena2;
+  }
+
+  .corazon2{
+    grid-area: corazon2;
+  }
+
+
+  .col {
+  position: absolute; 
+  }
+
 }
 
 .edicion > div{
-  display: flex;
-  justify-content: center;
-  color: rgb(194, 114, 40);
-}
-
-.col {
-position: absolute; 
-}
+    display: flex;
+    justify-content: center;
+    color: rgb(194, 114, 40);
+  }
 
 .container1 {
   width: 80%;

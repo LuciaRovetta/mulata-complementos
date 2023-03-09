@@ -12,21 +12,22 @@
   text-align: center;
   color:rgb(194, 114, 40);
 }
+
 .text {
   display: flex;
   justify-content: center;
   padding-top: 10px;
   padding-bottom: 10px;
-}
 
-.text2 {
+  .text2 {
   text-align: center;
   width: 450px;
   border-color: white;
   border-style: double ;
   color: rgb(194, 114, 40);
-  font-weight: bold;
+  font-weight: bold;}
 }
+
 
 .container1 {
   width: 80%;
