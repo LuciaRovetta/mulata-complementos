@@ -20,6 +20,13 @@
 .container1 .nav-item a {
   color: rgb(146, 73, 5);
 }
+.container1 .nav-item a:hover {
+  color: rgb(134, 7, 103);
+  font-weight: bold;
+  cursor: pointer;
+  transform: scale(1.5, 1);
+  background-color: rgb(240, 178, 224);
+}
 
 * {
   margin: 0%;
@@ -72,8 +79,6 @@ h2 {
   margin: 0;
   border-color: beige;
   border-style: double;
-  padding: 10px;
-  text-align: center;
   color: rgb(194, 114, 40);
 }
 
@@ -90,6 +95,11 @@ h2 {
   border-style: double;
   color: rgb(194, 114, 40);
   font-weight: bold;
+}
+.text .tx:hover {
+  color: rgb(134, 7, 103);
+  margin-right: 1vw;
+  transition: margin-right 1s;
 }
 
 .container1 {
@@ -152,6 +162,12 @@ h2 {
   width: 80%;
   margin: 0 auto;
   max-width: 1400px;
+}
+
+.tx:hover {
+  color: rgb(134, 7, 103);
+  margin-right: 1vw;
+  transition: margin-right 1s;
 }
 
 .texta {

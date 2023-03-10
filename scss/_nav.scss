@@ -3,9 +3,16 @@
   margin: 0 auto;
   max-width: 1400px;
 
-    .nav-item a {
+  .nav-item a {
         color: rgb(146, 73, 5);
-}
+        &:hover{
+          color:rgb(134, 7, 103);
+          font-weight: bold;
+          cursor: pointer;
+          transform: scale(1.5, 1);
+          background-color: rgb(240, 178, 224);
+        }
+  }
 
 }
 
