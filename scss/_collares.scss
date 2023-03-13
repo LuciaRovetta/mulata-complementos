@@ -1,8 +1,10 @@
 .textu {
   text-align: center;
   padding: 30px;
-  color: rgb(194, 114, 40);
+  color: $color-principal;
   font-size: 15px;
+  margin-left: 400px;
+  margin-right: 400px;
 }
 .collares {
   display: flex;
@@ -11,60 +13,61 @@
   align-items: center;
   gap: 1rem;
   font-size: 10px;
-  color:rgb(194, 114, 40);
+  color: $color-principal;
   padding: 30px;
 }
 
-.edicion{
+.edicion {
   width: 100%;
   display: grid;
   grid-template-columns: 2fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  grid-template-areas: 
-  "el corazon cadena"
-  "el cadena2 corazon2";
+  grid-template-areas:
+    "el corazon cadena"
+    "el cadena2 corazon2";
 
-
-  .el{
+  .el {
     grid-area: el;
   }
 
-  .corazon{
+  .corazon {
     grid-area: corazon;
+
+    .col {
+      position: absolute;
+    }
   }
 
-  .cadena{
+  .cadena {
     grid-area: cadena;
+    .col {
+      position: absolute;
+    }
   }
 
-  .cadena2{
+  .cadena2 {
     grid-area: cadena2;
+    .col {
+      position: absolute;
+    }
   }
 
-  .corazon2{
+  .corazon2 {
     grid-area: corazon2;
-  }
-
-
-  .col {
-  position: absolute; 
+    .col {
+      position: absolute;
+    }
   }
 }
 
-.edicion > div{
+.edicion > div {
   display: flex;
   justify-content: center;
-  color: rgb(194, 114, 40);
+  color: $color-principal;
 }
 
-.container1 {
-  width: 80%;
-  margin: 0 auto;
-  max-width: 1400px;
+.tx:hover {
+  color: rgb(134, 7, 103);
+  margin-right: 1vw;
+  transition: margin-right 1s;
 }
-
- .tx:hover {
-    color:rgb(134, 7, 103);
-    margin-right: 1vw;
-    transition: margin-right 1s;
-  }

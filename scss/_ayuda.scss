@@ -1,33 +1,27 @@
-.la{
+.la {
   flex-direction: row;
   padding: 10px;
 
   .formulario {
-  background-image: url(../imagen/formu.jpg);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: min(600px, 100%);
-  margin: 0 auto;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
-  color: white;
-  }
-  fieldset {
-  border: none;
+    background-image: url(../imagen/formu.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: min(600px, 100%);
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    fieldset {
+      border: none;
+    }
   }
 }
 
 .contactanos {
   padding-bottom: 20px;
   text-align: center;
-  color: rgb(197, 148, 103);
-}
-
-.container1 {
-  width: 80%;
-  margin: 0 auto;
-  max-width: 1400px;
+  color: $color-principal;
 }

@@ -1,6 +1,6 @@
 .encontranos {
   text-align: center;
-  color: rgb(194, 114, 40);
+  color: $color-principal;
 }
 
 .mapa1 {
@@ -10,15 +10,14 @@
   padding: 10px;
 
   .dire {
-    color: rgb(194, 114, 40);
+    color: $color-principal;
     font-size: 15px;
     border-color: white;
-    border-style: double ;
+    border-style: double;
     margin: 0 auto;
     padding: 2opx;
     width: 300px;
-}
-
+  }
 }
 .container1 {
   width: 80%;

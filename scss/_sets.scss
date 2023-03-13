@@ -1,10 +1,9 @@
 .texta {
   text-align: center;
   padding: 30px;
-  color: rgb(194, 114, 40);
+  color: $color-principal;
   font-size: 15px;
 }
-
 .sets {
   display: flex;
   text-align: center;
@@ -12,60 +11,62 @@
   align-items: center;
   gap: 1rem;
   font-size: 10px;
-  color: rgb(194, 114, 40);
+  color: $color-principal;
   padding: 30px;
 }
 
-.pulseras{
+.pulseras {
   text-align: center;
   padding: 30px;
-  color: rgb(194, 114, 40);
+  color: $color-principal;
   font-size: 15px;
 }
 
-.edicion2{
+.edicion2 {
   width: 100%;
   display: grid;
   grid-template-columns: 2fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  grid-template-areas: 
-  "el p1 p2"
-  "el p3 p4";
+  grid-template-areas:
+    "el p1 p2"
+    "el p3 p4";
 
-  .el{
-      grid-area: el;
+  .el {
+    grid-area: el;
   }
 
-  .p1{
+  .p1 {
     grid-area: p1;
+    .col {
+      position: absolute;
+    }
   }
 
-  .p2{
+  .p2 {
     grid-area: p2;
+    .col {
+      position: absolute;
+    }
   }
 
-  .p3{
+  .p3 {
     grid-area: p3;
+    .col {
+      position: absolute;
+    }
   }
 
-  .p4{
+  .p4 {
     grid-area: p4;
+    .col {
+      position: absolute;
+    }
   }
-
-  .col {
-  position: absolute; 
-  }
-}  
-
-.edicion2 > div{
-  display: flex;
-  justify-content: center;
-  color: rgb(194, 114, 40);
-  align-items: center;
 }
 
-.container1 {
-  width: 80%;
-  margin: 0 auto;
-  max-width: 1400px;
+.edicion2 > div {
+  display: flex;
+  justify-content: center;
+  color: $color-principal;
+  align-items: center;
 }

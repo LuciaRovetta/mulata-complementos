@@ -8,7 +8,7 @@
   margin: 0;
   border-color: beige;
   border-style: double;
-  color:rgb(194, 114, 40);
+  color: $color-principal;
 }
 
 .text {
@@ -21,23 +21,8 @@
     text-align: center;
     width: 450px;
     border-color: white;
-    border-style: double ;
-    color: rgb(194, 114, 40);
+    border-style: double;
+    color: $color-principal;
     font-weight: bold;
   }
-
-  .tx:hover {
-    color:rgb(134, 7, 103);
-    margin-right: 1vw;
-    transition: margin-right 1s;
-  }
 }
-
-.container1 {
-  width: 80%;
-  margin: 0 auto;
-  max-width: 1400px;
-
-  
-}
-

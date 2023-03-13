@@ -1,0 +1,42 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background-image: url(../imagen/gra.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#sección-principal {
+  text-align: center;
+
+  .container1 {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1400px;
+  }
+}
+
+img {
+  max-width: 100%;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+.icono {
+  margin: 0;
+  border-color: rgb(255, 255, 255);
+  border-style: double;
+}
+
+.tx:hover {
+  color: rgb(134, 7, 103);
+  margin-right: 1vw;
+  transition: margin-right 1s;
+  background-color: rosybrown;
+}
