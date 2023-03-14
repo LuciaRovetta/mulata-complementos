@@ -10,11 +10,6 @@ body {
 #sección-principal {
   text-align: center;
 }
-#sección-principal .container1 {
-  width: 80%;
-  margin: 0 auto;
-  max-width: 1400px;
-}
 
 img {
   max-width: 100%;
@@ -41,6 +36,12 @@ h2 {
   background-color: rosybrown;
 }
 
+.container1 {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1400px;
+}
+
 .footer {
   background-color: rgb(214, 163, 114);
   text-align: center;
@@ -59,10 +60,11 @@ h2 {
   margin: 0 auto;
   max-width: 1400px;
 }
-.container1 .nav-item a {
+
+.nav-item a {
   color: rgb(146, 73, 5);
 }
-.container1 .nav-item a:hover {
+.nav-item a:hover {
   color: rgb(134, 7, 103);
   font-weight: bold;
   cursor: pointer;
@@ -76,7 +78,7 @@ h2 {
 }
 
 ._accesorios {
-  display: flex;
+  display: grid;
   justify-content: center;
   align-items: center;
   gap: 5rem;
@@ -107,17 +109,21 @@ h2 {
   color: rgb(194, 114, 40);
 }
 
+.container1 {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1400px;
+}
+
 .textu {
   text-align: center;
   padding: 30px;
   color: rgb(194, 114, 40);
   font-size: 15px;
-  margin-left: 400px;
-  margin-right: 400px;
 }
 
 .collares {
-  display: flex;
+  display: grid;
   text-align: center;
   justify-content: center;
   align-items: center;
@@ -140,25 +146,16 @@ h2 {
 .edicion .corazon {
   grid-area: corazon;
 }
-.edicion .corazon .col {
-  position: absolute;
-}
 .edicion .cadena {
   grid-area: cadena;
-}
-.edicion .cadena .col {
-  position: absolute;
 }
 .edicion .cadena2 {
   grid-area: cadena2;
 }
-.edicion .cadena2 .col {
-  position: absolute;
-}
 .edicion .corazon2 {
   grid-area: corazon2;
 }
-.edicion .corazon2 .col {
+.edicion .col {
   position: absolute;
 }
 
@@ -168,17 +165,21 @@ h2 {
   color: rgb(194, 114, 40);
 }
 
+.container1 {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1400px;
+}
+
 .texta {
   text-align: center;
   padding: 30px;
   color: rgb(194, 114, 40);
   font-size: 15px;
-  margin-left: 400px;
-  margin-right: 400px;
 }
 
 .sets {
-  display: flex;
+  display: grid;
   text-align: center;
   justify-content: center;
   align-items: center;
@@ -210,25 +211,16 @@ h2 {
 .edicion2 .p1 {
   grid-area: p1;
 }
-.edicion2 .p1 .col {
-  position: absolute;
-}
 .edicion2 .p2 {
   grid-area: p2;
-}
-.edicion2 .p2 .col {
-  position: absolute;
 }
 .edicion2 .p3 {
   grid-area: p3;
 }
-.edicion2 .p3 .col {
-  position: absolute;
-}
 .edicion2 .p4 {
   grid-area: p4;
 }
-.edicion2 .p4 .col {
+.edicion2 .col {
   position: absolute;
 }
 
@@ -239,11 +231,15 @@ h2 {
   align-items: center;
 }
 
+.container1 {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1400px;
+}
+
 .encontranos {
   text-align: center;
   color: rgb(194, 114, 40);
-  margin-left: 400px;
-  margin-right: 400px;
 }
 
 .mapa1 {
@@ -293,6 +289,12 @@ h2 {
   padding-bottom: 20px;
   text-align: center;
   color: rgb(194, 114, 40);
+}
+
+.container1 {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1400px;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,5 +1,5 @@
 ._accesorios {
-  display: flex;
+  display: grid;
   justify-content: center;
   align-items: center;
   gap: 5rem;
@@ -28,4 +28,10 @@
 }
 .inicio {
   color: $color-principal;
+}
+
+.container1 {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1400px;
 }

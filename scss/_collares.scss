@@ -3,11 +3,9 @@
   padding: 30px;
   color: $color-principal;
   font-size: 15px;
-  margin-left: 400px;
-  margin-right: 400px;
 }
 .collares {
-  display: flex;
+  display: grid;
   text-align: center;
   justify-content: center;
   align-items: center;
@@ -32,31 +30,21 @@
 
   .corazon {
     grid-area: corazon;
-
-    .col {
-      position: absolute;
-    }
   }
 
   .cadena {
     grid-area: cadena;
-    .col {
-      position: absolute;
-    }
   }
 
   .cadena2 {
     grid-area: cadena2;
-    .col {
-      position: absolute;
-    }
   }
 
   .corazon2 {
     grid-area: corazon2;
-    .col {
-      position: absolute;
-    }
+  }
+  .col {
+    position: absolute;
   }
 }
 
@@ -64,4 +52,10 @@
   display: flex;
   justify-content: center;
   color: $color-principal;
+}
+
+.container1 {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1400px;
 }

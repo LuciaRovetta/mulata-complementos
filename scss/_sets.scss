@@ -3,11 +3,9 @@
   padding: 30px;
   color: $color-principal;
   font-size: 15px;
-  margin-left: 400px;
-  margin-right: 400px;
 }
 .sets {
-  display: flex;
+  display: grid;
   text-align: center;
   justify-content: center;
   align-items: center;
@@ -41,36 +39,32 @@
 
   .p1 {
     grid-area: p1;
-    .col {
-      position: absolute;
-    }
   }
 
   .p2 {
     grid-area: p2;
-    .col {
-      position: absolute;
-    }
   }
 
   .p3 {
     grid-area: p3;
-    .col {
-      position: absolute;
-    }
   }
 
   .p4 {
     grid-area: p4;
-    .col {
-      position: absolute;
-    }
+  }
+  .col {
+    position: absolute;
   }
 }
-
 .edicion2 > div {
   display: flex;
   justify-content: center;
   color: $color-principal;
   align-items: center;
+}
+
+.container1 {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1400px;
 }
