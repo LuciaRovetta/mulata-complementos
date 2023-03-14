@@ -23,6 +23,10 @@ h2 {
   font-size: 20px;
 }
 
+h3 {
+  font-size: 20px;
+}
+
 .icono {
   margin: 0;
   border-color: rgb(255, 255, 255);
@@ -120,6 +124,8 @@ h2 {
   padding: 30px;
   color: rgb(194, 114, 40);
   font-size: 15px;
+  margin-right: 25%;
+  margin-left: 25%;
 }
 
 .collares {
@@ -176,6 +182,8 @@ h2 {
   padding: 30px;
   color: rgb(194, 114, 40);
   font-size: 15px;
+  margin-right: 25%;
+  margin-left: 25%;
 }
 
 .sets {
@@ -194,8 +202,6 @@ h2 {
   padding: 30px;
   color: rgb(194, 114, 40);
   font-size: 15px;
-  margin-left: 400px;
-  margin-right: 400px;
 }
 
 .edicion2 {
@@ -240,6 +246,8 @@ h2 {
 .encontranos {
   text-align: center;
   color: rgb(194, 114, 40);
+  margin-right: 25%;
+  margin-left: 25%;
 }
 
 .mapa1 {
@@ -295,6 +303,10 @@ h2 {
   width: 80%;
   margin: 0 auto;
   max-width: 1400px;
+}
+
+textarea {
+  width: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */
