@@ -82,7 +82,7 @@ h3 {
 }
 
 ._accesorios {
-  display: grid;
+  display: flex;
   justify-content: center;
   align-items: center;
   gap: 5rem;
