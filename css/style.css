@@ -175,6 +175,8 @@ h2 {
   padding: 30px;
   color: rgb(194, 114, 40);
   font-size: 15px;
+  margin-left: 400px;
+  margin-right: 400px;
 }
 
 .sets {
@@ -193,6 +195,8 @@ h2 {
   padding: 30px;
   color: rgb(194, 114, 40);
   font-size: 15px;
+  margin-left: 400px;
+  margin-right: 400px;
 }
 
 .edicion2 {
@@ -240,6 +244,8 @@ h2 {
 .encontranos {
   text-align: center;
   color: rgb(194, 114, 40);
+  margin-left: 400px;
+  margin-right: 400px;
 }
 
 .mapa1 {
